@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
-    height: 1000px;
-}
 
-body.debug header, body.debug main, body.debug footer, body.debug div{
+
+body.debug div[class^="col-"] > div{
     height: 50px;
 }
 
@@ -19,8 +17,13 @@ body.debug header, body.debug main, body.debug footer, body.debug div{
     
 }
 
+.row{
+    margin: 0 -15px;
+}
+
 [class^="col-"]{
     float: left;
+    padding: 0 10px;
 }
 
 .col-100{
@@ -36,15 +39,21 @@ body.debug header, body.debug main, body.debug footer, body.debug div{
 }
 
 .bg-purple{
-    background-color: rgb(145, 97, 145);
+    background-color: rgb(205, 113, 241);
 }
 
 .bg-yellowish{
     background-color: rgb(228, 179, 111);
 }
 
-.mb-1{
-    margin-bottom: 1em;
+.mt-1{
+    margin-top: 0.5em;
+}
+
+
+
+.pd{
+    padding: 0.5em;
 }
 
 
@@ -54,6 +63,13 @@ body.debug header, body.debug main, body.debug footer, body.debug div{
 
 .bg-acqua{
     background-color: aqua;
-    padding: 0 15px;
     
+}
+
+.row.containermain{
+    background-color: blue;
+}
+
+.bg-purpleish{
+    background-color: rgb(142, 92, 185);
 }
