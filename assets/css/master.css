@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
-
+body{
+    width: 95%;
+    margin: 0 auto;
+}
 
 /* body.debug div[class^="col-"] > div{
     height: 50px;
@@ -49,24 +52,30 @@
 
 .bg-yellowish{
     background-color: rgb(228, 179, 111);
-    height: 200px;
+    height: 150px;
 }
 
 .bg-blueish{
     background-color: rgb(46, 122, 221);
 }
 
+
+
 .bg-acqua{
-    background-color: aqua;
-    height: 300px;
+    background-color: rgb(182, 214, 255);
+    height: 250px;
+}
+
+.bg-acqua.small{
+    height: 100px;
 }
 
 .containermain{
-    background-color: blue;
+    background-color: rgb(22, 131, 255);
 }
 
 .bg-purpleish{
-    background-color: rgb(142, 92, 185);
+    background-color: rgb(102, 5, 187);
     height: 50px;
 }
 
