@@ -6,7 +6,7 @@
 }
 
 body{
-    width: 95%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@ body{
 
 [class^="col-"]{
     float: left;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 .col-100{
@@ -47,12 +47,12 @@ body{
 
 .bg-purple{
     background-color: rgb(205, 113, 241);
-    height: 50px;
+    height: 60px;
 }
 
 .bg-yellowish{
     background-color: rgb(228, 179, 111);
-    height: 150px;
+    height: 300px;
 }
 
 .bg-blueish{
@@ -63,11 +63,11 @@ body{
 
 .bg-acqua{
     background-color: rgb(182, 214, 255);
-    height: 250px;
+    height: 350px;
 }
 
 .bg-acqua.small{
-    height: 100px;
+    height: 60px;
 }
 
 .containermain{
